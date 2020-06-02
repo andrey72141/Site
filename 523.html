@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"content="ie=edge">
+    <title>Aquarium fish</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <div class="title-block">
+          <h1>Aquarium fish</h1>
+        </div>
+        <div class="userpic"></div>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="123.html">Рыбы</a></li>
+            <li><a href="223.html">Редкие виды</a></li>
+            <li><a href="323.html">С чего начать</a></li>
+            <li><a href="423.html">Интересные факты</a></li>
+            <li><a href="523.html">Форма</a></li>
+            <li><a href="#">5</a></li>
+            <li><a href="#">6</a></li>
+        </ul>
+    </div>
+    <div id="content">
+        <h3 align="center">Форма замовлення книг у бібліотеці </h2>
+        <div align="center" class=form>
+            <form method="POST" action="mailto:svetkovalenko@gmail.com.?subject=From my site" target="_blank">
+                <div class="main">
+                    <div class="field">
+                        <label for="n">Ім'я</label>
+                        <input type="text" id="n" name="name" title="Краще вводити латинськими літерами" placeholder="Введіть ім'я">
+                    </div>
+                    <br>
+                    <div class="field">
+                        <label for="ln">Прізвище</label>
+                        <input type="text" id="ln" name="lastName" title="Краще вводити латинськими літерами" placeholder="Введіть прізвище">
+                    </div>
+                    <br>
+                    <div class="field">
+                        <label for="pass">Пароль</label>
+                        <input type="password" id="pass" title="Пароль повинен бути довгим" name="pass"placeholder="Введіть пароль">
+                    </div>
+                    <br>
+                    <div class="field">
+                        <label for="a">Адреса</label>
+                        <input type="text" id="a" name="address"  placeholder="Введіть адресу">
+                    </div>
+                    <br>
+                    <div class="field">
+                        <label for="a">Номер </label>
+                        <input type="text" id="a" name="address"  placeholder="Введіть номер телефону">
+                    </div>
+                    <br>
+                    <div class="send">
+                        <label for="radiogroup">Відправити</label><br>
+                        <input type="radio" name="radiogroup" value="Ukrposhta">Укрпошта
+                        <input type="radio"  name="radiogroup" value="novaposhta">Нова пошта<br>
+                    </div>
+                    <br>
+                    <div class="send">
+                        <label >Отримати</label><br>
+                        <input type="checkbox" name="bill">Рахунок
+                        <input type="checkbox" name="invoice">Накладна                       
+                    </div>
+                    <br>
+                    <div class="send">
+                        <label>Назва книги</label>
+                        <div class="field">
+                            <label for="n">Назва</label>
+                            <input type="text" id="n" name="name" title="Краще вводити латинськими літерами" placeholder="Назва книги">
+                        </div>
+                        <br>
+                        <label>Оберіть Жанр</label>
+                        <select name="body" title="Оберіть Жанр">
+                            <option disabled>Оберіть Жанр</option>
+                            <option value="hatchback">Фантастика</option>
+                            <option value="crossover">Пригоди</option>
+                            <option value="sedan">Містика</option>
+                            <option value="minivan">Жахи</option>
+                            <option value="coupe">Історичні книги</option>
+                            <option value="coupe">Література</option>
+                        </select>
+                     </div>
+                     <br>
+                     <div  class="field">
+                        <label for="num">Кількість</label>
+                        <input type="number" id="num" name="number" placeholder="Введіть кількість">
+                    </div>
+                    <br>
+                     <div class="field"></div>
+                        <label  for="text" >Додаткова інформація</label><br>
+                        <textarea title="Напишіть щось" name="text" cols="40" rows="6"></textarea>
+                    </div>
+                    <br>
+                    <input type=reset value="Очисти поля форми">
+                    <input type="submit" value="Відправити">
+                </div>
+            </form>
+        </div>
+
+</div>
+</body>
+</html>

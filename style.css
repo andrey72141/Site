@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+
+    background: url(https://404store.com/2017/05/19/an_underwater_view_of_crystal_clear_tropical_water-wallpaper-3840x1600.jpg)no-repeat center center fixed;
+    padding: 100px 0;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p{
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container{
+    width: 800px;
+    min-height: 800px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: rgb(163, 207, 243);
+}
+
+.header{
+    display: flex;
+    height: 200px;
+}
+
+.title-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    background: url("https://images.unsplash.com/photo-1572438131134-ec29490abfba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat center center / cover;
+    color: white;
+}
+
+.nav ul{
+    display: flex;
+    background: rgb(230, 230, 230);
+}
+
+.nav li a{
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+    color:#404040;
+    font-weight: bold;
+    border-right: 1px solid rgb(161, 159, 159);
+    transition: background .3s ease ;
+}
+.nav li a:hover{
+    background:  rgb(142, 190, 245);
+}
+
+.content-wrapper{
+    display: flex;
+}
+
+.content{
+    width: 100%;
+    padding: 20px
+}
+TD, TH {
+    padding: 5px; /* Поля вокруг текста */
+    border: 1px solid rgb(150, 10, 10); /* Рамка вокруг ячеек */
+}
+.l1 {
+    background: rgb(115, 129, 247);
+}
+.l2 {
+    background: rgb(84, 90, 148);
+}
+
+ .asd {
+    margin-left: 40px
+}
+.form{
+    width: 60%;
+    margin: auto;
+}
+div.field {
+    clear:both; 
+    text-align:right;
+  }
+div.field label {
+    margin: 2px;
+    float: left;
+  }
+div.field input{
+    width: 350px;
+}
+.main
+{
+    float:left;
+    margin: 5pt;
+}
+.send{
+    margin:5pt;
+    text-align: center;
+}
